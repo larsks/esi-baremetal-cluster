@@ -1,0 +1,16 @@
+all:
+  children:
+    openstack:
+      children:
+        undercloud:
+          hosts:
+            oct-4-00-undercloud:
+              ipmi_address: "10.2.4.0"
+        controller:
+          hosts:
+            oct-4-03-control1:
+              ipmi_address: "10.2.4.3"
+            oct-4-04-control2:
+              ipmi_address: "10.2.4.4"
+            oct-4-05-control3:
+              ipmi_address: "10.2.4.5"

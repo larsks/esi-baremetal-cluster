@@ -1,0 +1,32 @@
+all:
+  children:
+    baremetal:
+      hosts:
+        oct-4-01-control1:
+          ipmi_address: "10.2.4.1"
+        oct-4-02-control2:
+          ipmi_address: "10.2.4.2"
+        oct-4-06-compute:
+          ipmi_address: "10.2.4.6"
+        oct-4-07-compute:
+          ipmi_address: "10.2.4.7"
+        oct-4-08-compute:
+          ipmi_address: "10.2.4.8"
+        oct-4-09-compute:
+          ipmi_address: "10.2.4.9"
+        oct-4-10-compute:
+          ipmi_address: "10.2.4.10"
+#           oct-4-11-compute:
+#             ipmi_address: "10.2.4.11"
+        oct-4-12-compute:
+          ipmi_address: "10.2.4.12"
+        oct-4-13-compute:
+          ipmi_address: "10.2.4.13"
+        oct-4-14-compute:
+          ipmi_address: "10.2.4.14"
+        oct-4-15-compute:
+          ipmi_address: "10.2.4.15"
+        oct-4-16-compute:
+          ipmi_address: "10.2.4.16"
+        oct-4-17-compute:
+          ipmi_address: "10.2.4.17"
